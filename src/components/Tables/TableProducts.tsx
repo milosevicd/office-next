@@ -39,35 +39,41 @@ const TableProducts = () => {
     </>,
 
     // Reference column
-    <p className="text-dark dark:text-white">
-      {product.referenceManufacturers}
-    </p>,
+    <>
+      <p className="text-dark dark:text-white">
+        {product.referenceManufacturers}
+      </p>
+    </>,
 
     // Status column
-    <p
-      className={`inline-flex rounded-full px-3.5 py-1 text-body-sm font-medium ${
-        product.isActive === true
-          ? "bg-[#219653]/[0.08] text-[#219653]"
-          : product.isActive === false
-            ? "bg-[#D34053]/[0.08] text-[#D34053]"
-            : "bg-[#FFA70B]/[0.08] text-[#FFA70B]"
-      }`}
-    >
-      {product.isActive ? "Active" : "Inactive"}
-    </p>,
+    <>
+      <p
+        className={`inline-flex rounded-full px-3.5 py-1 text-body-sm font-medium ${
+          product.isActive === true
+            ? "bg-[#219653]/[0.08] text-[#219653]"
+            : product.isActive === false
+              ? "bg-[#D34053]/[0.08] text-[#D34053]"
+              : "bg-[#FFA70B]/[0.08] text-[#FFA70B]"
+        }`}
+      >
+        {product.isActive ? "Active" : "Inactive"}
+      </p>
+    </>,
 
     // Actions column
-    <div className="flex items-center justify-end space-x-3.5">
-      <button className="hover:text-primary">
-        <FiEye size={20} />
-      </button>
-      <button className="hover:text-primary">
-        <FiTrash2 size={20} />
-      </button>
-      <button className="hover:text-primary">
-        <FiDownload size={20} />
-      </button>
-    </div>,
+    <>
+      <div className="flex items-center justify-end space-x-3.5">
+        <button className="hover:text-primary">
+          <FiEye size={20} />
+        </button>
+        <button className="hover:text-primary">
+          <FiTrash2 size={20} />
+        </button>
+        <button className="hover:text-primary">
+          <FiDownload size={20} />
+        </button>
+      </div>
+    </>,
   ];
 
   return (
