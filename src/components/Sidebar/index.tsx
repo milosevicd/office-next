@@ -53,12 +53,6 @@ const menuGroups = [
         ],
       },
       {
-        icon: <RiLayoutGridLine className="text-current" size={24} />,
-        label: "Tables",
-        route: "#",
-        children: [{ label: "Tables", route: "/tables" }],
-      },
-      {
         icon: <RiFileTextLine className="text-current" size={24} />,
         label: "Pages",
         route: "#",

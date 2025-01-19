@@ -44,11 +44,11 @@ const CalendarBox = () => {
                   <span className="group-hover:text-primary md:hidden">
                     More
                   </span>
-                  <div className="event invisible absolute left-2 z-99 mb-1 flex w-[200%] flex-col rounded-r-[5px] border-l-[3px] border-primary bg-gray-2 px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-dark-2 md:visible md:w-[190%] md:opacity-100">
+                  <div className="event invisible absolute left-2 z-99 mb-1 flex w-[200%] flex-col rounded-r-[5px] border-l-[5px] border-primary bg-gray-2 px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-dark-2 md:visible md:w-[290%] md:opacity-100">
                     <span className="event-name font-medium text-dark dark:text-white">
-                      Redesign Website
+                      OfficeUp Conference
                     </span>
-                    <span className="time text-sm">1 Dec - 2 Dec</span>
+                    <span className="time text-sm">1 Dec - 3 Dec</span>
                   </div>
                 </div>
               </td>
@@ -171,11 +171,11 @@ const CalendarBox = () => {
                   <span className="group-hover:text-primary md:hidden">
                     More
                   </span>
-                  <div className="event invisible absolute left-2 z-99 mb-1 flex w-[300%] flex-col rounded-r-[5px] border-l-[3px] border-primary bg-gray-2 px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-dark-2 md:visible md:w-[290%] md:opacity-100">
+                  <div className="event invisible absolute left-2 z-99 mb-1 flex w-[100%] flex-col rounded-r-[5px] border-l-[5px] border-red-500 bg-gray-2 px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-dark-2 md:visible md:w-[90%] md:opacity-100">
                     <span className="event-name font-medium text-dark dark:text-white">
-                      App Design
+                      Salarios
                     </span>
-                    <span className="time text-sm">25 Dec - 27 Dec</span>
+                    <span className="time text-sm">25 Dec</span>
                   </div>
                 </div>
               </td>
