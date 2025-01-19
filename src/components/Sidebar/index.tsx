@@ -17,6 +17,8 @@ import {
   RiAppsLine,
   RiLoginBoxLine,
   RiArrowLeftSLine,
+  RiProductHuntLine,
+  RiShoppingBagLine,
 } from "react-icons/ri";
 
 interface SidebarProps {
@@ -30,18 +32,13 @@ const menuGroups = [
     menuItems: [
       {
         icon: <RiDashboardLine className="text-current" size={24} />,
+        label: "Dashboard",
+        route: "/",
+      },
+      {
+        icon: <RiShoppingBagLine className="text-current" size={24} />,
         label: "Products",
         route: "/pages/products",
-      },
-      {
-        icon: <RiCalendarLine className="text-current" size={24} />,
-        label: "Calendar",
-        route: "/calendar",
-      },
-      {
-        icon: <RiUserLine className="text-current" size={24} />,
-        label: "Profile",
-        route: "/profile",
       },
       {
         icon: <RiFileTextLine className="text-current" size={24} />,

@@ -6,6 +6,7 @@ import ChatCard from "../Chat/ChatCard";
 import MapOne from "../Maps/MapOne";
 import DataStatsOne from "@/components/DataStats/DataStatsOne";
 import ChartOne from "@/components/Charts/ChartOne";
+import CalendarBox from "../CalenderBox";
 
 const ECommerce: React.FC = () => {
   return (
@@ -18,6 +19,9 @@ const ECommerce: React.FC = () => {
         <ChartThree />
         <MapOne />
         <ChatCard />
+        <div className="col-span-12 xl:col-span-8">
+          <CalendarBox />
+        </div>
       </div>
     </>
   );

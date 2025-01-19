@@ -5,8 +5,8 @@ import React from "react";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Next.js Basic Chart Page | NextAdmin - Next.js Dashboard Kit",
-  description: "This is Next.js Basic Chart page for NextAdmin Dashboard Kit",
+  title: "Next Basic Chart Page | NextAdmin - Next Dashboard Kit",
+  description: "This is Next Basic Chart page for NextAdmin Dashboard Kit",
   // other metadata
 };
 

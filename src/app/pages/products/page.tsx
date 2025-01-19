@@ -5,8 +5,8 @@ import TableProducts from "@/components/Tables/TableProducts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Next.js Tables Page | NextAdmin - Next.js Dashboard Kit",
-  description: "This is Next.js Tables page for NextAdmin Dashboard Kit",
+  title: "Next Tables Page | NextAdmin - Next Dashboard Kit",
+  description: "This is Next Tables page for NextAdmin Dashboard Kit",
 };
 
 const ProductsPage = () => {

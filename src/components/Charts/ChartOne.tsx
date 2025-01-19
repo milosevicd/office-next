@@ -137,7 +137,7 @@ const ChartOne: React.FC = () => {
         </div>
         <div className="flex items-center gap-2.5">
           <p className="font-medium uppercase text-dark dark:text-dark-6">
-            Short by:
+            Show:
           </p>
           <DefaultSelectOption options={["Monthly", "Yearly"]} />
         </div>
